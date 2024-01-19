@@ -1,6 +1,7 @@
 package main
 
 import (
+	"awesomeProject1/DesafioDio2"
 	"fmt"
 	"log"
 )
@@ -18,4 +19,7 @@ func main() {
 	celsiusValue = replace(kelvinValue)
 
 	fmt.Println("O valor em Celcius é:", celsiusValue)
+	DesafioDio2.DesafioDio2Parte1()
+	DesafioDio2.DesafioDio2Parte2()
+
 }
