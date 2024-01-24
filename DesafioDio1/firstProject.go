@@ -2,6 +2,7 @@ package main
 
 import (
 	"awesomeProject1/DesafioDio2"
+	"awesomeProject1/DesafioDio3"
 	"fmt"
 	"log"
 )
@@ -21,5 +22,6 @@ func main() {
 	fmt.Println("O valor em Celcius é:", celsiusValue)
 	DesafioDio2.DesafioDio2Parte1()
 	DesafioDio2.DesafioDio2Parte2()
+	DesafioDio3.PingPong()
 
 }
