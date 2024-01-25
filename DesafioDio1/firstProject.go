@@ -3,6 +3,7 @@ package main
 import (
 	"awesomeProject1/DesafioDio2"
 	"awesomeProject1/DesafioDio3"
+	"awesomeProject1/StaticServer"
 	"fmt"
 	"log"
 )
@@ -23,5 +24,5 @@ func main() {
 	DesafioDio2.DesafioDio2Parte1()
 	DesafioDio2.DesafioDio2Parte2()
 	DesafioDio3.PingPong()
-
+	StaticServer.StaticServer()
 }
